@@ -29,10 +29,12 @@ body {
     align-self: end;
     margin-bottom: 20px;
 }
+
 .item-social img {
     width: 100%;
     height: 100%;
 }
+
 .logo {
     margin-top: 20px;
     text-align: center;
@@ -42,10 +44,10 @@ body {
     position: relative;
     display: grid;
     grid-template-columns: 70% 30%;
-    border: 1px solid red;
 }
 
 .hero-title {
+    padding-left: 80px;
     font-size: 30px;
 }
 
@@ -62,4 +64,51 @@ nav ul {
     right: 150px;
     border-radius: 7px;
     background-color: #E92042;
+}
+
+.container {
+    background-color: #F7FCFF;
+    padding: 80px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+.skill {
+    display: flex;
+    width: fit-content;
+    border: 1px solid red;
+}
+
+.skill:nth-child(2) {
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.skill img {
+    align-self: center;
+    padding: 10px
+}
+
+.skill img {
+    align-self: center;
+    padding: 10px
+}
+
+.skill-description h3 {
+    margin: 7px 0;
+}
+
+.skill-description p {
+    margin: 0;
+}
+
+.rocket {
+    width: fit-content;
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-top: -30px;
 }
