@@ -2,26 +2,22 @@ body {
     font-family: "Dosis", "sans-serif";
     margin: 0;
     background-color: white;
-    color: #1A1A4C;
+    color: #1a1a4c;
 }
-
 .wrapper {
     display: grid;
     grid-template-columns: 120px 1fr;
 }
-
 .wrapper main {
     height: 100vh;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
-
 .sidebar {
     display: grid;
     height: 100vh;
     background-color: #fcfcfc;
 }
-
 .sidebar .menu {
     display: grid;
     justify-content: center;
@@ -29,86 +25,87 @@ body {
     align-self: end;
     margin-bottom: 20px;
 }
-
 .item-social img {
     width: 100%;
     height: 100%;
 }
-
 .logo {
     margin-top: 20px;
     text-align: center;
 }
-
 .hero {
     position: relative;
     display: grid;
     grid-template-columns: 70% 30%;
 }
-
 .hero-title {
     padding-left: 80px;
     font-size: 30px;
 }
-
 nav ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
 }
-
 .hero-image {
     position: absolute;
     padding: 70px;
     bottom: -50%;
     right: 150px;
     border-radius: 7px;
-    background-color: #E92042;
+    background-color: #e92042;
 }
-
 .container {
-    background-color: #F7FCFF;
+    background-color: #f7fcff;
     padding: 80px;
 }
-
 .skills {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
-
 .skill {
     display: flex;
     width: fit-content;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
-
 .skill:nth-child(2) {
     margin-top: 15px;
     margin-left: 80px;
 }
-
 .skill img {
     align-self: center;
-    padding: 10px
+    padding: 10px;
 }
-
 .skill img {
     align-self: center;
-    padding: 10px
+    padding: 10px;
 }
-
 .skill-description h3 {
     margin: 7px 0;
 }
-
 .skill-description p {
     margin: 0;
 }
-
 .rocket {
     width: fit-content;
     align-self: flex-end;
     margin-right: 100px;
     margin-top: -30px;
+}
+.about-me {
+    margin-top: -30px;
+}
+.about-title {
+    margin-top: 0;
+    font-size: 40px;
+}
+.about-description {
+    background-color: white;
+    width: 50%;
+    border-radius: 7px;
+    padding: 10px;
+}
+.about-description span {
+    padding-left: 20px;
 }
