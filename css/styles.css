@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: white;
     color: #1a1a4c;
+    background-color: #f7fcff;
 }
 .wrapper {
     display: grid;
@@ -36,6 +37,7 @@ body {
     text-align: center;
 }
 .hero {
+    background-color: white;
     position: relative;
     display: grid;
     grid-template-columns: 70% 30%;
@@ -66,7 +68,6 @@ nav ul a {
     box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.15);
 }
 .container {
-    background-color: #f7fcff;
     padding: 80px;
 }
 .skills {
